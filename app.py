@@ -11,7 +11,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-MODEL_ID = "YOUR_HUGGINGFACE_USERNAME/YOUR_MODEL_REPO"
+MODEL_ID = "noormb/fake-news-detection"
 
 # ---------------- CUSTOM DESIGN ----------------
 
