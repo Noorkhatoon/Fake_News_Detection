@@ -99,8 +99,24 @@ header {visibility: hidden;}
     color: white;
 }
 
-textarea {
+/* NEWS INPUT TEXT FIX */
+
+.stTextArea textarea {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    caret-color: #000000 !important;
     border-radius: 12px !important;
+}
+
+.stTextArea textarea::placeholder {
+    color: #64748b !important;
+    -webkit-text-fill-color: #64748b !important;
+    opacity: 1 !important;
+}
+
+.stTextArea label {
+    color: #f1f5f9 !important;
 }
 
 footer {visibility: hidden;}
